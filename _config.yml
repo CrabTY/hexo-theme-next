@@ -17,7 +17,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: true
+minify: false
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -152,7 +152,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
+  display: always
 
   # Sidebar padding in pixels.
   padding: 18
@@ -203,7 +203,7 @@ links_settings:
   layout: block
 
 links:
-  Title: https://taoyand.dev
+  # Title: https://taoyang.dev
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
